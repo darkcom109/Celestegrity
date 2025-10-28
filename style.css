@@ -16,7 +16,6 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   /* Subtle vignette to improve contrast on edges */
-  box-shadow: inset 0 0 250px rgba(0,0,0,.55);
 }
 
 /* Make the navbar truly transparent while keeping readable links */
@@ -40,7 +39,7 @@ body {
   pointer-events: none;
 }
 .gradient-text {
-  background: linear-gradient(90deg, #fff, #b3e5ff, #c8b6ff);
+  background: linear-gradient(90deg, #fff, #c8faff, #c1d5d8);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
