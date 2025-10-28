@@ -1,6 +1,7 @@
 /* ===== Base / Background ===== */
 :root {
   --space-img: url("https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?q=80&w=2400&auto=format&fit=crop"); /* swap to your own if you like */
+  --bg-dim: 1;
 }
 
 /* Full-page starfield background */
@@ -126,4 +127,20 @@ textarea:focus-visible {
 /* Utility */
 .shadow-xxl {
   box-shadow: 0 25px 80px rgba(0, 0, 0, 0.55);
+}
+
+/* Avoid background 'jump' on phones */
+@media (max-width: 991.98px) {
+  body {
+    background-attachment: scroll;   /* was fixed */
+  }
+  /* Use modern viewport units to avoid 100vh jumps */
+  #hero {
+    min-height: 100svh; /* small viewport height; stable on mobile */
+  }
+}
+
+/* Prefer dvh where supported (optional progressive enhancement) */
+@supports (height: 100dvh) {
+  #hero { min-height: 100dvh; }
 }
