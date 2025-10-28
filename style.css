@@ -10,14 +10,13 @@ html, body {
   font-family: 'Inter';
 }
 body {
-  color: #fff;
   background-image: var(--space-img);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
-  /* Subtle vignette to improve contrast on edges */
+  background-attachment: fixed; /* ← keeps the background fixed */
 }
+
 
 /* Make the navbar truly transparent while keeping readable links */
 .bg-transparent-true {
