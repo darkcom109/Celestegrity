@@ -7,8 +7,10 @@
 /* Full-page starfield background */
 html, body {
   height: 100%;
+  width: 100%;
   font-family: 'Inter';
 }
+
 body {
   color: #fff;
   background-image: var(--space-img);
