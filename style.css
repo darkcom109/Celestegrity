@@ -131,3 +131,29 @@ textarea:focus-visible {
   box-shadow: 0 25px 80px rgba(0, 0, 0, 0.55);
 }
 
+/* === Global background overlay (applies site-wide) === */
+body::before {
+  content: "";
+  position: fixed;      /* stays put while you scroll */
+  inset: 0;
+  z-index: -1;          /* sits behind all content */
+  /* same vibe as your hero overlay, but full screen */
+  background:
+    radial-gradient(1200px 600px at 50% 40%,
+      rgba(0,0,0,.15),
+      rgba(0,0,0,.55)),
+
+    /* optional uniform dim on top of image */
+    /* linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)), */
+
+    var(--space-img);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Remove the background from body itself (we're drawing it in ::before) */
+body {
+  color: #fff;
+  background: none;
+}
