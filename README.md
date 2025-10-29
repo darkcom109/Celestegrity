@@ -1,5 +1,5 @@
 <h1 align="center"> 🌟 Celestegrity </h1>
-<h2> A Modern, Responsive Landing Page for Celestegrity — A Youth-Led, Non-Profit Organization </h2>
+<h2 align="center"> A Modern, Responsive Landing Page for Celestegrity — A Youth-Led, Non-Profit Organization </h2>
 🕊️ About the Project
 
 Celestegrity is a youth-led, non-profit organization dedicated to empowering young individuals through community-driven initiatives, education, and advocacy.
@@ -24,6 +24,7 @@ HTML5 — Semantic and accessible structure.
 CSS3 — Modern styling with custom variables and media queries.
 
 (No external frameworks used — 100% hand-crafted code.)
+
 
 
 
