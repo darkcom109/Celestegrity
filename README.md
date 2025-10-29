@@ -25,7 +25,9 @@ Bootstrap5 - Classes and advanced styling
 
 ```bash
 git clone https://github.com/darkcom109/Celestegrity
+cd Celestegrity
 ```
+
 
 
 
