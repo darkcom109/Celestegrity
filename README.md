@@ -23,10 +23,13 @@ CSS3 — Modern styling with custom variables and media queries.
 
 Bootstrap5 - Classes and advanced styling
 
+## 📊 Clone The Repository
+
 ```bash
 git clone https://github.com/darkcom109/Celestegrity
 cd Celestegrity
 ```
+
 
 
 
