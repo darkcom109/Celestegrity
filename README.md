@@ -1,7 +1,8 @@
 ﻿# Celestegrity
 
-A comprehensive landing page for Celestegrity, a youth-led non-profit organisation
+## A Comprehensive Landing Page for Celestegrity - A Youth-Led, Non-Profit Organisation
 
-## test
+
+
 
 
