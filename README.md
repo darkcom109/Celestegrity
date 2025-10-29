@@ -16,13 +16,14 @@ This project is a simple yet elegant landing page built using HTML and CSS, desi
 
 🧩 Easy to Customize — Perfect starting point for future expansion or redesigns.
 
-🧰 Built With
+## 🧰 Built With
 
 HTML5 — Semantic and accessible structure.
 
 CSS3 — Modern styling with custom variables and media queries.
 
-(No external frameworks used — 100% hand-crafted code.)
+Bootstrap5 - Classes and advanced styling
+
 
 
 
