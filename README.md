@@ -2,7 +2,7 @@
 
 Celestegrity is a youth-led, non-profit organization dedicated to empowering young individuals through community-driven initiatives, education, and advocacy.
 This project is a simple yet elegant landing page built using HTML and CSS, designed to reflect the organization’s values of hope, integrity, and growth.
-
+ 
 ## ✨ Features
 
 🧭 Clean & Minimal Design — Focused on clarity and accessibility.
@@ -29,6 +29,7 @@ Bootstrap5 - Classes and advanced styling
 git clone https://github.com/darkcom109/Celestegrity
 cd Celestegrity
 ```
+
 
 
 
